@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-04-13T11:10:22.656Z",
+  "schoolCount": 179,
+  "withCoordinates": 179,
+  "withBallotData": 176,
+  "ballotSourceType": "archived_official",
+  "ballotSourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+  "ballotSourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+  "ballotSnapshotDate": "2022-06-30",
+  "registrationPhases": [
+    "Phase 1",
+    "Phase 2A",
+    "Phase 2B",
+    "Phase 2C",
+    "Phase 2C Supplementary"
+  ],
+  "distancePriorityOrder": [
+    "Singapore Citizen within 1km",
+    "Singapore Citizen between 1km and 2km",
+    "Singapore Citizen outside 2km",
+    "Permanent Resident within 1km",
+    "Permanent Resident between 1km and 2km",
+    "Permanent Resident outside 2km"
+  ],
+  "methodologyNotes": [
+    "Ballot pressure is shown as historical or latest-accessible official context, not a prediction of future phases.",
+    "School profiles and programme details are extracted from the official MOE datasets published on data.gov.sg.",
+    "Coordinates are derived from official school addresses using the public OneMap search API.",
+    "The ballot dataset used in this build is the latest machine-accessible official archived MOE snapshot from 2022-06-30."
+  ],
+  "sources": [
+    {
+      "label": "MOE P1 registration overview",
+      "url": "https://www.moe.gov.sg/primary/p1-registration"
+    },
+    {
+      "label": "MOE distance priority rules",
+      "url": "https://www.moe.gov.sg/primary/p1-registration/distance"
+    },
+    {
+      "label": "MOE school directory collection on data.gov.sg",
+      "url": "https://data.gov.sg/collections/457/view"
+    },
+    {
+      "label": "General information of schools dataset",
+      "url": "https://data.gov.sg/datasets/d_688b934f82c1059ed0a6993d2a829089/view"
+    },
+    {
+      "label": "School distinctive programmes dataset",
+      "url": "https://data.gov.sg/datasets/d_db1faeea02c646fa3abccfa5aba99214/view"
+    },
+    {
+      "label": "MOE programmes dataset",
+      "url": "https://data.gov.sg/datasets/d_b0697d22a7837a4eddf72efb66a36fc2/view"
+    },
+    {
+      "label": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "url": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult"
+    },
+    {
+      "label": "OneMap search API",
+      "url": "https://www.onemap.gov.sg/apidocs/apidocs"
+    }
+  ]
+}
