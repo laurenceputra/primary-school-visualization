@@ -9,9 +9,22 @@ import {
   pressureTone,
   titleCase,
 } from './lib/format'
-import type { DatasetMeta, School } from './types/data'
+import type { BallotSnapshot, DatasetMeta, PressureBand, School } from './types/data'
 
 type LoadState = 'loading' | 'ready' | 'error'
+
+type BrowserSourceState = {
+  directory: 'bundled' | 'live'
+  ballot: 'bundled' | 'live'
+  note: string | null
+}
+
+type BrowserDataCache = {
+  schools: School[]
+  meta: DatasetMeta
+  browserSourceState: BrowserSourceState
+  savedAt: string
+}
 
 type AddressMatch = {
   label: string
@@ -23,7 +36,73 @@ type SchoolView = School & {
   distanceKm: number | null
 }
 
+type GeneralInfoRecord = {
+  school_name?: string
+  dgp_code?: string
+  zone_code?: string
+  type_code?: string
+  nature_code?: string
+  session_code?: string
+  url_address?: string
+  address?: string
+  postal_code?: string
+  telephone_no?: string
+  email_address?: string
+  mrt_desc?: string
+  bus_desc?: string
+  sap_ind?: string
+  autonomous_ind?: string
+  gifted_ind?: string
+  ip_ind?: string
+  mothertongue1_code?: string
+  mothertongue2_code?: string
+  mothertongue3_code?: string
+  mainlevel_code?: string
+}
+
+type MoeProgrammeRecord = {
+  school_name?: string
+  moe_programme_desc?: string
+}
+
+type DistinctiveProgrammeRecord = {
+  school_name?: string
+  alp_domain?: string
+  alp_title?: string
+  llp_domain1?: string
+  llp_title?: string
+}
+
+type DataGovResponse<T extends object> = {
+  success?: boolean
+  result?: {
+    resource_id?: string
+    records?: Array<T & { _id?: number }>
+  }
+}
+
+type LiveBallotRecord = {
+  title?: string
+  applicant?: string
+  avail?: string
+  ballot?: string
+  remark?: string
+}
+
+type LiveBallotResponse = Array<{
+  school_list?: LiveBallotRecord[]
+}>
+
 const DEFAULT_ERROR = 'The explorer could not load its local data files.'
+const DATA_GOV_DATASET_BASE = 'https://data.gov.sg/api/action/datastore_search'
+const DATA_GOV_PAGE_SIZE = 1000
+const LIVE_BALLOT_URL = 'https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult'
+const BROWSER_DATA_CACHE_KEY = 'primary-school-visualization.browser-data-cache.v1'
+const DIRECTORY_DATASET_IDS = {
+  generalInfo: 'd_688b934f82c1059ed0a6993d2a829089',
+  moeProgrammes: 'd_b0697d22a7837a4eddf72efb66a36fc2',
+  distinctiveProgrammes: 'd_db1faeea02c646fa3abccfa5aba99214',
+}
 
 function getJsonUrl(path: string) {
   return `${import.meta.env.BASE_URL}${path}`
@@ -37,6 +116,339 @@ async function fetchJson<T>(path: string): Promise<T> {
   }
 
   return (await response.json()) as T
+}
+
+async function fetchExternalJson<T>(url: string): Promise<T> {
+  const response = await fetch(url)
+
+  if (!response.ok) {
+    throw new Error(`Request failed for ${url} with ${response.status}`)
+  }
+
+  return (await response.json()) as T
+}
+
+function readBrowserDataCache(): BrowserDataCache | null {
+  if (typeof window === 'undefined') {
+    return null
+  }
+
+  try {
+    const raw = window.localStorage.getItem(BROWSER_DATA_CACHE_KEY)
+
+    if (!raw) {
+      return null
+    }
+
+    const parsed = JSON.parse(raw) as Partial<BrowserDataCache>
+
+    if (!Array.isArray(parsed.schools) || !parsed.meta || !parsed.browserSourceState || !parsed.savedAt) {
+      return null
+    }
+
+    return parsed as BrowserDataCache
+  } catch {
+    return null
+  }
+}
+
+function writeBrowserDataCache(cache: BrowserDataCache) {
+  if (typeof window === 'undefined') {
+    return
+  }
+
+  try {
+    window.localStorage.setItem(BROWSER_DATA_CACHE_KEY, JSON.stringify(cache))
+  } catch {
+    // Ignore storage failures and keep the live data in memory.
+  }
+}
+
+const initialBrowserDataCache = readBrowserDataCache()
+const initialCacheNote = initialBrowserDataCache
+  ? `Loaded cached browser data saved ${new Date(initialBrowserDataCache.savedAt).toLocaleString()}.`
+  : null
+
+async function fetchDataGovDataset<T extends object>(resourceId: string): Promise<T[]> {
+  const payload = await fetchExternalJson<DataGovResponse<T>>(
+    `${DATA_GOV_DATASET_BASE}?resource_id=${resourceId}&limit=${DATA_GOV_PAGE_SIZE}`,
+  )
+
+  if (!payload.success || payload.result?.resource_id !== resourceId) {
+    throw new Error(`Unexpected data.gov.sg payload for ${resourceId}`)
+  }
+
+  return (payload.result.records ?? []).map((record) => {
+    const nextRecord = { ...record }
+    delete nextRecord._id
+    return nextRecord as T
+  })
+}
+
+function cleanValue(value: unknown) {
+  if (value === null || value === undefined) {
+    return null
+  }
+
+  const text = String(value).trim()
+
+  if (!text || /^na$/i.test(text) || /^n\/a$/i.test(text) || /^nil$/i.test(text)) {
+    return null
+  }
+
+  return text
+}
+
+function parseInteger(value: unknown) {
+  const text = cleanValue(value)
+
+  if (!text) {
+    return null
+  }
+
+  const parsed = Number.parseInt(text, 10)
+  return Number.isFinite(parsed) ? parsed : null
+}
+
+function normalizeName(name: string) {
+  return String(name)
+    .toUpperCase()
+    .replace(/&/g, 'AND')
+    .replace(/[^A-Z0-9]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function toSlug(name: string) {
+  return normalizeName(name).toLowerCase().replace(/\s+/g, '-')
+}
+
+function toBoolean(value: unknown) {
+  const text = cleanValue(value)
+
+  if (text === 'Yes') {
+    return true
+  }
+
+  if (text === 'No') {
+    return false
+  }
+
+  return null
+}
+
+function compact<T>(values: Array<T | null | undefined | false>) {
+  return values.filter((value): value is T => Boolean(value))
+}
+
+function derivePressureBand(
+  applicant: number | null,
+  avail: number | null,
+  ballotText: string | null,
+  remarkText: string | null,
+): PressureBand {
+  if (applicant === null || avail === null || avail <= 0) {
+    return 'unknown'
+  }
+
+  const ratio = applicant / avail
+  const note = `${ballotText ?? ''} ${remarkText ?? ''}`.toLowerCase()
+
+  if (applicant > avail || note.includes('ballot')) {
+    return 'oversubscribed'
+  }
+
+  if (ratio >= 0.9) {
+    return 'elevated'
+  }
+
+  if (ratio >= 0.6) {
+    return 'steady'
+  }
+
+  return 'low'
+}
+
+function mergeOfficialDirectoryData(
+  bundledSchools: School[],
+  generalInfoRecords: GeneralInfoRecord[],
+  moeProgrammeRecords: MoeProgrammeRecord[],
+  distinctiveProgrammeRecords: DistinctiveProgrammeRecord[],
+) {
+  const groupedMoeProgrammes = new Map<string, string[]>()
+
+  for (const record of moeProgrammeRecords) {
+    const schoolName = cleanValue(record.school_name)
+    const programme = cleanValue(record.moe_programme_desc)
+
+    if (!schoolName || !programme) {
+      continue
+    }
+
+    const key = normalizeName(schoolName)
+    const current = groupedMoeProgrammes.get(key) ?? []
+    current.push(programme)
+    groupedMoeProgrammes.set(key, current)
+  }
+
+  const groupedDistinctiveProgrammes = new Map<string, Omit<School['programmes'], 'moe'>>()
+
+  for (const record of distinctiveProgrammeRecords) {
+    const schoolName = cleanValue(record.school_name)
+
+    if (!schoolName) {
+      continue
+    }
+
+    groupedDistinctiveProgrammes.set(normalizeName(schoolName), {
+      alpDomain: cleanValue(record.alp_domain),
+      alpTitle: cleanValue(record.alp_title),
+      llpDomain: cleanValue(record.llp_domain1),
+      llpTitle: cleanValue(record.llp_title),
+    })
+  }
+
+  const bundledByName = new Map(
+    bundledSchools.map((school) => [normalizeName(school.name), school]),
+  )
+
+  const mergedSchools = generalInfoRecords
+    .filter((record) => cleanValue(record.mainlevel_code) === 'PRIMARY')
+    .map((record) => {
+      const name = cleanValue(record.school_name)
+
+      if (!name) {
+        return null
+      }
+
+      const key = normalizeName(name)
+      const bundled = bundledByName.get(key)
+      const distinctiveProgrammes = groupedDistinctiveProgrammes.get(key)
+      const motherTongues = compact([
+        cleanValue(record.mothertongue1_code),
+        cleanValue(record.mothertongue2_code),
+        cleanValue(record.mothertongue3_code),
+      ])
+
+      return {
+        id: bundled?.id ?? toSlug(name),
+        name,
+        planningArea: cleanValue(record.dgp_code) ?? bundled?.planningArea ?? null,
+        zone: cleanValue(record.zone_code) ?? bundled?.zone ?? null,
+        type: cleanValue(record.type_code) ?? bundled?.type ?? null,
+        nature: cleanValue(record.nature_code) ?? bundled?.nature ?? null,
+        session: cleanValue(record.session_code) ?? bundled?.session ?? null,
+        website: cleanValue(record.url_address) ?? bundled?.website ?? null,
+        address: cleanValue(record.address) ?? bundled?.address ?? null,
+        postalCode: cleanValue(record.postal_code) ?? bundled?.postalCode ?? null,
+        phone: cleanValue(record.telephone_no) ?? bundled?.phone ?? null,
+        email: cleanValue(record.email_address) ?? bundled?.email ?? null,
+        mrt: cleanValue(record.mrt_desc) ?? bundled?.mrt ?? null,
+        bus: cleanValue(record.bus_desc) ?? bundled?.bus ?? null,
+        sap: toBoolean(record.sap_ind) ?? bundled?.sap ?? null,
+        autonomous: toBoolean(record.autonomous_ind) ?? bundled?.autonomous ?? null,
+        gifted: toBoolean(record.gifted_ind) ?? bundled?.gifted ?? null,
+        ip: toBoolean(record.ip_ind) ?? bundled?.ip ?? null,
+        motherTongues: motherTongues.length ? motherTongues : bundled?.motherTongues ?? [],
+        programmes: {
+          moe: [...new Set(groupedMoeProgrammes.get(key) ?? bundled?.programmes.moe ?? [])],
+          alpDomain: distinctiveProgrammes?.alpDomain ?? bundled?.programmes.alpDomain ?? null,
+          alpTitle: distinctiveProgrammes?.alpTitle ?? bundled?.programmes.alpTitle ?? null,
+          llpDomain: distinctiveProgrammes?.llpDomain ?? bundled?.programmes.llpDomain ?? null,
+          llpTitle: distinctiveProgrammes?.llpTitle ?? bundled?.programmes.llpTitle ?? null,
+        },
+        ballot: bundled?.ballot ?? null,
+        location: bundled?.location ?? null,
+      } satisfies School
+    })
+    .filter((school): school is School => Boolean(school))
+
+  mergedSchools.sort((first, second) => first.name.localeCompare(second.name))
+  return mergedSchools
+}
+
+function mergeLiveBallotData(schools: School[], payload: LiveBallotResponse) {
+  const schoolList = payload[0]?.school_list
+
+  if (!Array.isArray(schoolList)) {
+    throw new Error('Unexpected live ballot payload shape')
+  }
+
+  const ballotMap = new Map(
+    schoolList.map((school) => {
+      const applicant = parseInteger(school.applicant)
+      const avail = parseInteger(school.avail)
+      const ballotText = cleanValue(school.ballot)
+      const remarkText = cleanValue(school.remark)
+      const ballot: BallotSnapshot = {
+        sourceType: 'live_official',
+        sourceLabel: 'Official MOE vacancies and balloting API',
+        sourceUrl: LIVE_BALLOT_URL,
+        snapshotDate: undefined,
+        avail,
+        applicant,
+        hasBallot: Boolean(ballotText || remarkText || (avail !== null && applicant !== null && applicant > avail)),
+        ballot: ballotText,
+        remark: remarkText,
+        pressureRatio: applicant !== null && avail ? applicant / avail : null,
+        pressureBand: derivePressureBand(applicant, avail, ballotText, remarkText),
+      }
+
+      return [
+        normalizeName(school.title ?? ''),
+        ballot,
+      ]
+    }),
+  )
+
+  return schools.map((school) => ({
+    ...school,
+    ballot: ballotMap.get(normalizeName(school.name)) ?? school.ballot,
+  }))
+}
+
+function summarizeMeta(
+  meta: DatasetMeta,
+  schools: School[],
+  sourceState: Pick<BrowserSourceState, 'directory' | 'ballot'>,
+) {
+  const methodologyNotes = meta.methodologyNotes.filter(
+    (note) =>
+      !note.includes('refreshed live from official data.gov.sg dataset APIs in this browser') &&
+      !note.includes('come from the bundled official data.gov.sg dataset build') &&
+      !note.includes('refreshed live from the official MOE endpoint in this browser'),
+  )
+
+  methodologyNotes.splice(
+    1,
+    0,
+    sourceState.directory === 'live'
+      ? 'School profiles and programme details were refreshed live from official data.gov.sg dataset APIs in this browser.'
+      : 'School profiles and programme details come from the bundled official data.gov.sg dataset build.',
+  )
+
+  if (sourceState.ballot === 'live') {
+    methodologyNotes.push('Ballot data was refreshed live from the official MOE endpoint in this browser.')
+  }
+
+  return {
+    ...meta,
+    generatedAt:
+      sourceState.directory === 'live' || sourceState.ballot === 'live'
+        ? new Date().toISOString()
+        : meta.generatedAt,
+    schoolCount: schools.length,
+    withCoordinates: schools.filter((school) => school.location).length,
+    withBallotData: schools.filter((school) => school.ballot).length,
+    ballotSourceType: sourceState.ballot === 'live' ? 'live_official' : meta.ballotSourceType,
+    ballotSourceLabel:
+      sourceState.ballot === 'live'
+        ? 'Official MOE vacancies and balloting API'
+        : meta.ballotSourceLabel,
+    ballotSourceUrl: sourceState.ballot === 'live' ? LIVE_BALLOT_URL : meta.ballotSourceUrl,
+    ballotSnapshotDate: sourceState.ballot === 'live' ? undefined : meta.ballotSnapshotDate,
+    methodologyNotes,
+  } satisfies DatasetMeta
 }
 
 function haversineDistanceKm(
@@ -222,15 +634,31 @@ function MapPanel(props: {
 }
 
 function App() {
-  const [schools, setSchools] = useState<School[]>([])
-  const [meta, setMeta] = useState<DatasetMeta | null>(null)
-  const [loadState, setLoadState] = useState<LoadState>('loading')
+  const [schools, setSchools] = useState<School[]>(() => initialBrowserDataCache?.schools ?? [])
+  const [meta, setMeta] = useState<DatasetMeta | null>(() => initialBrowserDataCache?.meta ?? null)
+  const [loadState, setLoadState] = useState<LoadState>(() =>
+    initialBrowserDataCache ? 'ready' : 'loading',
+  )
   const [errorMessage, setErrorMessage] = useState(DEFAULT_ERROR)
+  const [browserSourceState, setBrowserSourceState] = useState<BrowserSourceState>(() =>
+    initialBrowserDataCache
+      ? {
+          ...initialBrowserDataCache.browserSourceState,
+          note: initialCacheNote,
+        }
+      : {
+          directory: 'bundled',
+          ballot: 'bundled',
+          note: null,
+        },
+  )
   const [searchTerm, setSearchTerm] = useState('')
   const [zoneFilter, setZoneFilter] = useState('All zones')
   const [pressureFilter, setPressureFilter] = useState('all')
   const [sortBy, setSortBy] = useState('pressure')
-  const [selectedSchoolId, setSelectedSchoolId] = useState<string | null>(null)
+  const [selectedSchoolId, setSelectedSchoolId] = useState<string | null>(() =>
+    initialBrowserDataCache?.schools[0]?.id ?? null,
+  )
   const [compareIds, setCompareIds] = useState<string[]>([])
   const [addressQuery, setAddressQuery] = useState('')
   const [addressMatch, setAddressMatch] = useState<AddressMatch | null>(null)
@@ -241,18 +669,89 @@ function App() {
   useEffect(() => {
     let cancelled = false
 
-    Promise.all([
-      fetchJson<School[]>('data/schools.json'),
-      fetchJson<DatasetMeta>('data/meta.json'),
-    ])
-      .then(([schoolData, metaData]) => {
+    const schoolDataPromise = initialBrowserDataCache
+      ? Promise.resolve(initialBrowserDataCache.schools)
+      : fetchJson<School[]>('data/schools.json')
+    const metaDataPromise = initialBrowserDataCache
+      ? Promise.resolve(initialBrowserDataCache.meta)
+      : fetchJson<DatasetMeta>('data/meta.json')
+
+    Promise.all([schoolDataPromise, metaDataPromise])
+      .then(async ([schoolData, metaData]) => {
         if (cancelled) {
           return
         }
 
-        setSchools(schoolData)
-        setMeta(metaData)
-        setSelectedSchoolId(schoolData[0]?.id ?? null)
+        let nextSchools = schoolData
+        const sourceState: BrowserSourceState = {
+          directory: 'bundled',
+          ballot: 'bundled',
+          note: initialCacheNote,
+        }
+        let nextMeta = metaData
+        let refreshedLiveData = false
+
+        try {
+          const [generalInfoRecords, moeProgrammeRecords, distinctiveProgrammeRecords] = await Promise.all([
+            fetchDataGovDataset<GeneralInfoRecord>(DIRECTORY_DATASET_IDS.generalInfo),
+            fetchDataGovDataset<MoeProgrammeRecord>(DIRECTORY_DATASET_IDS.moeProgrammes),
+            fetchDataGovDataset<DistinctiveProgrammeRecord>(DIRECTORY_DATASET_IDS.distinctiveProgrammes),
+          ])
+
+          if (cancelled) {
+            return
+          }
+
+          nextSchools = mergeOfficialDirectoryData(
+            schoolData,
+            generalInfoRecords,
+            moeProgrammeRecords,
+            distinctiveProgrammeRecords,
+          )
+          sourceState.directory = 'live'
+          refreshedLiveData = true
+        } catch (error) {
+          sourceState.note = sourceState.note
+            ? `${sourceState.note} Live school directory refresh was unavailable, so the app kept the bundled official dataset.`
+            : error instanceof Error
+              ? `Live school directory refresh was unavailable, so the app kept the bundled official dataset. ${error.message}`
+              : 'Live school directory refresh was unavailable, so the app kept the bundled official dataset.'
+        }
+
+        try {
+          const liveBallotPayload = await fetchExternalJson<LiveBallotResponse>(LIVE_BALLOT_URL)
+
+          if (!cancelled) {
+            nextSchools = mergeLiveBallotData(nextSchools, liveBallotPayload)
+            sourceState.ballot = 'live'
+            refreshedLiveData = true
+          }
+        } catch {
+          sourceState.note = sourceState.note
+            ? `${sourceState.note} Live MOE ballot refresh was unavailable, so the app kept the bundled ballot snapshot.`
+            : 'Live MOE ballot refresh was unavailable, so the app kept the bundled ballot snapshot.'
+        }
+
+        nextMeta = summarizeMeta(metaData, nextSchools, sourceState)
+
+        if (refreshedLiveData) {
+          sourceState.note = 'Live official data refreshed and cached in this browser.'
+          writeBrowserDataCache({
+            schools: nextSchools,
+            meta: nextMeta,
+            browserSourceState: {
+              directory: sourceState.directory,
+              ballot: sourceState.ballot,
+              note: null,
+            },
+            savedAt: new Date().toISOString(),
+          })
+        }
+
+        setSchools(nextSchools)
+        setMeta(nextMeta)
+        setBrowserSourceState(sourceState)
+        setSelectedSchoolId(nextSchools[0]?.id ?? null)
         setLoadState('ready')
       })
       .catch((error: unknown) => {
@@ -509,8 +1008,12 @@ function App() {
 
         <div className="toolbar-notes">
           <p>
+            School directory source: <strong>{browserSourceState.directory === 'live' ? 'Live official browser refresh' : 'Bundled official build'}</strong>
+          </p>
+          <p>
             Snapshot source: <a href={meta.ballotSourceUrl}>{meta.ballotSourceLabel}</a>
           </p>
+          {browserSourceState.note ? <p>{browserSourceState.note}</p> : null}
           {meta.ballotSnapshotDate ? (
             <p>
               Ballot reference year: <strong>{meta.ballotSnapshotDate.slice(0, 4)}</strong>.

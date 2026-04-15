@@ -1,7 +1,8 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { chromium } from 'playwright'
+const DATA_GOV_API_BASE = 'https://data.gov.sg/api/action/datastore_search'
+const DATA_GOV_PAGE_SIZE = 1000
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const projectRoot = path.resolve(__dirname, '..')
@@ -279,98 +280,28 @@ async function geocodeSchool(school, cache) {
   return null
 }
 
-async function fetchDatasetMetadata(datasetId) {
-  const payload = await fetchJson(
-    `https://api-production.data.gov.sg/v2/public/api/datasets/${datasetId}/metadata`,
-  )
-
-  if (payload?.code !== 0 || !payload?.data?.columnMetadata) {
-    throw new Error(`Unexpected metadata payload for ${datasetId}`)
-  }
-
-  return payload.data
-}
-
 async function extractTableDataset(dataset) {
-  const [metadata, browser] = await Promise.all([
-    fetchDatasetMetadata(dataset.id),
-    chromium.launch({ headless: true }),
-  ])
+  const records = []
+  const limit = DATA_GOV_PAGE_SIZE
 
-  const page = await browser.newPage()
+  for (let offset = 0; ; offset += limit) {
+    const payload = await fetchJson(
+      `${DATA_GOV_API_BASE}?resource_id=${dataset.id}&limit=${limit}&offset=${offset}`,
+    )
 
-  try {
-    await page.goto(dataset.url, {
-      waitUntil: 'domcontentloaded',
-      timeout: 120000,
-    })
-    await page.waitForSelector('table[aria-label="Dataset explorer"] tbody tr', {
-      timeout: 120000,
-    })
-    await page.waitForTimeout(3000)
-
-    const columnOrder = metadata.columnMetadata.order
-    const columnMap = metadata.columnMetadata.map
-    const totalRowsText = await page.locator('h3').filter({ hasText: 'rows' }).first().innerText()
-    const totalRows = Number(totalRowsText.match(/\((\d+) rows,/i)?.[1] ?? '0')
-    const realColumns = columnOrder.length
-    const dataRowsPerPage = 10
-    const totalPages = Math.ceil(totalRows / dataRowsPerPage)
-    const records = []
-
-    for (let currentPage = 1; currentPage <= totalPages; currentPage += 1) {
-      if (currentPage > 1) {
-        await page.evaluate((targetPage) => {
-          const buttons = [...document.querySelectorAll('nav[aria-label="pagination"] button')]
-          const button = buttons.find((candidate) => candidate.textContent?.trim() === String(targetPage))
-
-          if (!button) {
-            throw new Error(`Pagination button not found for page ${targetPage}`)
-          }
-
-          button.click()
-        }, currentPage)
-
-        await page.waitForFunction(
-          (pageNumber) => {
-            const buttons = [...document.querySelectorAll('nav[aria-label="pagination"] button')]
-            const current = buttons.find((button) => button.getAttribute('data-current') === 'true')
-            return current?.textContent?.trim() === String(pageNumber)
-          },
-          currentPage,
-          { timeout: 30000 },
-        )
-
-        await page.waitForTimeout(2000)
-      }
-
-      const rowTexts = await page.locator('table[aria-label="Dataset explorer"] tbody tr').allInnerTexts()
-
-      for (const [index, rowText] of rowTexts.entries()) {
-        if (index === 0) {
-          continue
-        }
-
-        const cells = rowText.split('\t')
-
-        if (cells.length < realColumns) {
-          continue
-        }
-
-        const record = {}
-
-        columnOrder.forEach((columnId, columnIndex) => {
-          record[columnMap[columnId]] = cells[columnIndex] ?? null
-        })
-
-        records.push(record)
-      }
+    if (!payload?.success || payload?.result?.resource_id !== dataset.id) {
+      throw new Error(`Unexpected dataset payload for ${dataset.id}`)
     }
 
-    return records
-  } finally {
-    await page.close()
-    await browser.close()
+    const pageRecords = Array.isArray(payload.result.records) ? payload.result.records : []
+
+    records.push(
+      ...pageRecords.map(({ _id, ...record }) => record),
+    )
+
+    if (pageRecords.length < limit) {
+      return records
+    }
   }
 }
 
