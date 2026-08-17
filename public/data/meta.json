@@ -1,12 +1,11 @@
 {
-  "generatedAt": "2026-08-10T04:59:44.659Z",
+  "generatedAt": "2026-08-17T03:40:54.438Z",
   "schoolCount": 179,
   "withCoordinates": 179,
-  "withBallotData": 176,
-  "ballotSourceType": "archived_official",
-  "ballotSourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
-  "ballotSourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
-  "ballotSnapshotDate": "2022-06-30",
+  "withBallotData": 0,
+  "ballotSourceType": "unavailable",
+  "ballotSourceLabel": "No machine-accessible official ballot endpoint was available during build.",
+  "ballotSourceUrl": "https://www.moe.gov.sg/primary/p1-registration/past-vacancies-and-balloting-data",
   "registrationPhases": [
     "Phase 1",
     "Phase 2A",
@@ -26,7 +25,7 @@
     "Ballot pressure is shown as historical or latest-accessible official context, not a prediction of future phases.",
     "School profiles and programme details are extracted from the official MOE datasets published on data.gov.sg.",
     "Coordinates are derived from official school addresses using the public OneMap search API.",
-    "The ballot dataset used in this build is the latest machine-accessible official archived MOE snapshot from 2022-06-30."
+    "The build tried the live MOE ballot endpoint first and fell back only if unavailable."
   ],
   "sources": [
     {
@@ -54,8 +53,8 @@
       "url": "https://data.gov.sg/datasets/d_b0697d22a7837a4eddf72efb66a36fc2/view"
     },
     {
-      "label": "Official MOE vacancies and balloting API archived by the Wayback Machine",
-      "url": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult"
+      "label": "No machine-accessible official ballot endpoint was available during build.",
+      "url": "https://www.moe.gov.sg/primary/p1-registration/past-vacancies-and-balloting-data"
     },
     {
       "label": "OneMap search API",
