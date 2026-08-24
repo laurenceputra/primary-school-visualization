@@ -30,7 +30,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 106,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.7066666666666667,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.4426347903311,
       "lng": 103.800040119743
@@ -67,7 +79,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 130,
+      "applicant": 56,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4307692307692308,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.43315271543517,
       "lng": 103.832942401086
@@ -102,7 +126,19 @@
       "llpDomain": "Sports & Outdoor Education",
       "llpTitle": "L.E.A.D.: Character and Leadership Development through Outdoor Education Programme"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 240,
+      "applicant": 122,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5083333333333333,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.3605834338904,
       "lng": 103.833020333986
@@ -139,7 +175,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 140,
+      "applicant": 75,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5357142857142857,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.29133439161334,
       "lng": 103.824424680531
@@ -176,7 +224,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 74,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4111111111111111,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.39036998654612,
       "lng": 103.887165375933
@@ -213,7 +273,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 91,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6066666666666667,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.38426429436736,
       "lng": 103.841392081119
@@ -250,7 +322,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 48,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.32,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.36932176584608,
       "lng": 103.839630858752
@@ -287,7 +371,19 @@
       "llpDomain": "Sports & Outdoor Education",
       "llpTitle": "All for Sports, Sports for All @ ACS(Junior)"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 210,
+      "applicant": 78,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.37142857142857144,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.30935041274966,
       "lng": 103.840950265464
@@ -324,7 +420,19 @@
       "llpDomain": "Sports & Outdoor Education",
       "llpTitle": "Building Character Through Sports"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 61,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.3388888888888889,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.31837054523521,
       "lng": 103.835609732354
@@ -361,7 +469,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 220,
+      "applicant": 53,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.2409090909090909,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.36360590588314,
       "lng": 103.9389409004
@@ -398,7 +518,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 67,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.44666666666666666,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.38394936211823,
       "lng": 103.773632022975
@@ -435,7 +567,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 66,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.36666666666666664,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.32344593287992,
       "lng": 103.937878976352
@@ -472,7 +616,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 130,
+      "applicant": 50,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.38461538461538464,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.32181250780475,
       "lng": 103.865404167629
@@ -509,7 +665,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 60,
+      "applicant": 19,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.31666666666666665,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.27612047924037,
       "lng": 103.808628535239
@@ -546,7 +714,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 240,
+      "applicant": 65,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.2708333333333333,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.34317853793318,
       "lng": 103.713280889452
@@ -583,7 +763,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 100,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5555555555555556,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.37362179302436,
       "lng": 103.769374904025
@@ -620,7 +812,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 130,
+      "applicant": 59,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.45384615384615384,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.3372995575169,
       "lng": 103.766828720721
@@ -657,7 +861,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 240,
+      "applicant": 54,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.225,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.34586054788695,
       "lng": 103.75366641455
@@ -694,7 +910,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 85,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4722222222222222,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.45125024371543,
       "lng": 103.815858858929
@@ -731,7 +959,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 60,
+      "applicant": 34,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5666666666666667,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.32685566604543,
       "lng": 103.881547155683
@@ -768,7 +1008,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 34,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.2833333333333333,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.27547252623201,
       "lng": 103.839962631748
@@ -805,7 +1057,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 100,
+      "applicant": 60,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.37246063927999,
       "lng": 103.957020286115
@@ -842,7 +1106,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 32,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.17777777777777778,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.3355885014312,
       "lng": 103.87562104944
@@ -879,7 +1155,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 52,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.3466666666666667,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.34023163951633,
       "lng": 103.952080114035
@@ -916,7 +1204,19 @@
       "llpDomain": "Community Service & Student Leadership",
       "llpTitle": "Community Student Leadership"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 140,
+      "applicant": 39,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.2785714285714286,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.30648535277087,
       "lng": 103.911105620496
@@ -953,7 +1253,19 @@
       "llpDomain": "Music & Performing Arts",
       "llpTitle": "ArtsONE+ : Purposeful Learning of Music and Performing Arts Using the Self-regulated Approach"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 140,
+      "applicant": 49,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.35,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.275022722964,
       "lng": 103.828157564896
@@ -990,7 +1302,19 @@
       "llpDomain": "Community Service & Student Leadership",
       "llpTitle": "The PROACTIVE Leader in Me Development Programme"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 90,
+      "applicant": 33,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.36666666666666664,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.35742952269615,
       "lng": 103.864009397373
@@ -1027,7 +1351,19 @@
       "llpDomain": "Sports & Outdoor Education",
       "llpTitle": "The SPARK (Sports for Active and Resilient Kids)"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 58,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.32222222222222224,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.37330297140128,
       "lng": 103.897575728303
@@ -1064,7 +1400,19 @@
       "llpDomain": "Community Service & Student Leadership",
       "llpTitle": "Character Lives In My Behaviour (CLIMB)"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 37,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.30833333333333335,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.366603668561,
       "lng": 103.767412204602
@@ -1101,7 +1449,19 @@
       "llpDomain": "Sports & Outdoor Education",
       "llpTitle": "IJSports"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 55,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.36666666666666664,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.33275264711587,
       "lng": 103.841847263786
@@ -1138,7 +1498,19 @@
       "llpDomain": "Sports & Outdoor Education",
       "llpTitle": "Growing Character through Sports and Outdoor Education"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 240,
+      "applicant": 139,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5791666666666667,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.43839562897006,
       "lng": 103.839309173817
@@ -1175,7 +1547,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 89,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.7416666666666667,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.35070739237744,
       "lng": 103.951399541868
@@ -1212,7 +1596,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 114,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6333333333333333,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.37775890093367,
       "lng": 103.741832917421
@@ -1249,7 +1645,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 220,
+      "applicant": 82,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.37272727272727274,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.31506321827875,
       "lng": 103.763144493687
@@ -1286,7 +1694,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 98,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5444444444444444,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.39444529636566,
       "lng": 103.897812229905
@@ -1323,7 +1743,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 102,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5666666666666667,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.38000806197242,
       "lng": 103.736225440727
@@ -1360,7 +1792,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 56,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.3111111111111111,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.35099779872539,
       "lng": 103.707593724342
@@ -1397,7 +1841,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 54,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.3,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.33546106800406,
       "lng": 103.921270169613
@@ -1434,7 +1890,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 140,
+      "applicant": 87,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6214285714285714,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.3591797447277,
       "lng": 103.74847210784
@@ -1471,7 +1939,19 @@
       "llpDomain": "Community Service & Student Leadership",
       "llpTitle": "Nurturing Mindful Servant Leaders @ De La Salle"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 79,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4388888888888889,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.3947078296399,
       "lng": 103.743201812831
@@ -1508,7 +1988,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 130,
+      "applicant": 66,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5076923076923077,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.35268400746357,
       "lng": 103.961676849165
@@ -1545,7 +2037,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 87,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.48333333333333334,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.40009139510996,
       "lng": 103.907847599114
@@ -1582,7 +2086,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 79,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6583333333333333,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.37451269377776,
       "lng": 103.945128117139
@@ -1619,7 +2135,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 74,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4111111111111111,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.45403837499301,
       "lng": 103.817436231731
@@ -1656,7 +2184,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 68,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4533333333333333,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.44415332824735,
       "lng": 103.794577787757
@@ -1693,7 +2233,19 @@
       "llpDomain": "Music & Performing Arts/ Visual Arts & Design",
       "llpTitle": "HeARTS: Building Empathy and Social Awareness through the arts"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 210,
+      "applicant": 122,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.580952380952381,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.30054082453424,
       "lng": 103.785438270044
@@ -1730,7 +2282,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 130,
+      "applicant": 43,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.33076923076923076,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.31236867681371,
       "lng": 103.850766402965
@@ -1767,7 +2331,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 82,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6833333333333333,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.32980598760785,
       "lng": 103.931710293058
@@ -1804,7 +2380,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 120,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6666666666666666,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.39726966050479,
       "lng": 103.880330305684
@@ -1841,7 +2429,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 91,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5055555555555555,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.39030227963797,
       "lng": 103.874445458032
@@ -1878,7 +2478,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 90,
+      "applicant": 18,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.2,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.34032299499938,
       "lng": 103.855529906182
@@ -1915,7 +2527,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 80,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5333333333333333,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.33641298743234,
       "lng": 103.69970173931
@@ -1952,7 +2576,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 51,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.34,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.43047990810126,
       "lng": 103.778192944298
@@ -1989,7 +2625,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 72,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.33650394789627,
       "lng": 103.736103745748
@@ -2026,7 +2674,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 90,
+      "applicant": 34,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.37777777777777777,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.28559516494962,
       "lng": 103.815547410064
@@ -2063,7 +2723,19 @@
       "llpDomain": "Community Service & Student Leadership",
       "llpTitle": "GM Earth Warriors Environment Education (EE): To Develop Student Leaders who Empathise, Enrich and Empower"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 210,
+      "applicant": 93,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.44285714285714284,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.31759126757284,
       "lng": 103.883845744916
@@ -2100,7 +2772,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 91,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6066666666666667,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.35723721393297,
       "lng": 103.949115320172
@@ -2137,7 +2821,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 83,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.46111111111111114,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.39648195114256,
       "lng": 103.91233462071
@@ -2174,7 +2870,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 72,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.48,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.3858892193692,
       "lng": 103.767794469258
@@ -2211,7 +2919,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 94,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5222222222222223,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.43989958331782,
       "lng": 103.804725587384
@@ -2248,7 +2968,19 @@
       "llpDomain": "Music & Performing Arts",
       "llpTitle": "Character and Leadership through the Performing and Visual Arts"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 130,
+      "applicant": 35,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.2692307692307692,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.31194344271383,
       "lng": 103.902902557195
@@ -2285,7 +3017,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 240,
+      "applicant": 122,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5083333333333333,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.31667646178347,
       "lng": 103.784296227747
@@ -2320,7 +3064,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 210,
+      "applicant": 121,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5761904761904761,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.36693830877349,
       "lng": 103.894114899795
@@ -2355,7 +3111,19 @@
       "llpDomain": "Sports & Outdoor Education",
       "llpTitle": "Learning for Life Programme in Sports and Outdoor Education"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 72,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.48,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.32175999964553,
       "lng": 103.857628468881
@@ -2392,7 +3160,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 94,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5222222222222223,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.399550034492,
       "lng": 103.913404855665
@@ -2429,7 +3209,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 140,
+      "applicant": 79,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5642857142857143,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.37738245231461,
       "lng": 103.880805274557
@@ -2466,7 +3258,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 220,
+      "applicant": 115,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5227272727272727,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.42697284512936,
       "lng": 103.844240226564
@@ -2503,7 +3307,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 75,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.625,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.42896700684852,
       "lng": 103.790607539185
@@ -2540,7 +3356,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 72,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.42768847665227,
       "lng": 103.830425490093
@@ -2577,7 +3405,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 90,
+      "applicant": 54,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.37223290983498,
       "lng": 103.852132214306
@@ -2614,7 +3454,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 86,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4777777777777778,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.34787074766746,
       "lng": 103.939221709073
@@ -2651,7 +3503,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 80,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6666666666666666,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.34843859698946,
       "lng": 103.733156566858
@@ -2688,7 +3552,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 87,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.725,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.33917519796104,
       "lng": 103.698803732244
@@ -2725,7 +3601,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 160,
+      "applicant": 100,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.625,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.34552849960874,
       "lng": 103.756449399351
@@ -2762,7 +3650,19 @@
       "llpDomain": "Community Service & Student Leadership",
       "llpTitle": "Student Voice & Advocacy (SVA)"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 80,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4444444444444444,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.3373381935639,
       "lng": 103.847148501824
@@ -2797,7 +3697,19 @@
       "llpDomain": "Sports & Outdoor Education",
       "llpTitle": "Exposure-Experience-Excel through Sports"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 210,
+      "applicant": 99,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4714285714285714,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.31099674009193,
       "lng": 103.888352029067
@@ -2834,7 +3746,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 90,
+      "applicant": 31,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.34444444444444444,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.39356050497104,
       "lng": 103.747362720939
@@ -2871,7 +3795,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 102,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5666666666666667,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.34939813669536,
       "lng": 103.855018233311
@@ -2908,7 +3844,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 29,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.16111111111111112,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.33820397704287,
       "lng": 103.718089546664
@@ -2945,7 +3893,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 240,
+      "applicant": 53,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.22083333333333333,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.35424191127295,
       "lng": 103.754165828711
@@ -2980,7 +3940,19 @@
       "llpDomain": "Music & Performing Arts",
       "llpTitle": "Learning through an Ethnic Arts Programme (LEAP)"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 270,
+      "applicant": 130,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.48148148148148145,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.32847086658384,
       "lng": 103.901298737314
@@ -3017,7 +3989,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 61,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4066666666666667,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.43383904037059,
       "lng": 103.773643013846
@@ -3054,7 +4038,19 @@
       "llpDomain": "Sports & Outdoor Education",
       "llpTitle": "Enhancing Holistic Health through Sports and Outdoor Education - Sports Excellence (SPOEEX) @ Marymount"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 32,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.17777777777777778,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.34036676987375,
       "lng": 103.840021064426
@@ -3091,7 +4087,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 130,
+      "applicant": 45,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.34615384615384615,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.37637683547682,
       "lng": 103.843252803742
@@ -3128,7 +4136,19 @@
       "llpDomain": "Sports & Outdoor Education",
       "llpTitle": "SENCE @ MTS (Sports Education Nurturing Character Excellence at Mee Toh School)"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 240,
+      "applicant": 114,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.475,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.3946184538592,
       "lng": 103.908589494228
@@ -3165,7 +4185,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 130,
+      "applicant": 58,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4461538461538462,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.37552831658484,
       "lng": 103.934889078518
@@ -3202,7 +4234,19 @@
       "llpDomain": "Sports & Outdoor Education",
       "llpTitle": "Outdoor and Sports Programme at MGS"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 81,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.54,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.33294800935714,
       "lng": 103.783393009829
@@ -3239,7 +4283,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 90,
+      "applicant": 26,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.28888888888888886,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.37382444075979,
       "lng": 103.889307782925
@@ -3276,7 +4332,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 240,
+      "applicant": 143,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5958333333333333,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.39221149906592,
       "lng": 103.891180928186
@@ -3311,7 +4379,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 97,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5388888888888889,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.31920159956387,
       "lng": 103.761095065761
@@ -3346,7 +4426,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 330,
+      "applicant": 165,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.32084749904532,
       "lng": 103.807750155296
@@ -3383,7 +4475,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 220,
+      "applicant": 115,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5227272727272727,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.41630663159387,
       "lng": 103.838794077233
@@ -3420,7 +4524,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 33,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.22,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.29964188181021,
       "lng": 103.80010216304
@@ -3457,7 +4573,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 85,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4722222222222222,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.30552505910497,
       "lng": 103.917463017497
@@ -3494,7 +4622,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 65,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.43333333333333335,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.38706146494859,
       "lng": 103.903202683028
@@ -3531,7 +4671,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 81,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.45,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.42752327193727,
       "lng": 103.848190787869
@@ -3568,7 +4720,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 79,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4388888888888889,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.38282243016299,
       "lng": 103.895961877928
@@ -3605,7 +4769,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 86,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4777777777777778,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.42096989918951,
       "lng": 103.840928424929
@@ -3642,7 +4818,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 160,
+      "applicant": 29,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.18125,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.45660782030102,
       "lng": 103.814196981329
@@ -3679,7 +4867,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 33,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.18333333333333332,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.41813803336667,
       "lng": 103.904416909742
@@ -3716,7 +4916,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 190,
+      "applicant": 73,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.38421052631578945,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.40462413200793,
       "lng": 103.911120600638
@@ -3753,7 +4965,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 130,
+      "applicant": 73,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5615384615384615,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.31931914436255,
       "lng": 103.923788259248
@@ -3790,7 +5014,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 90,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.38376923022123,
       "lng": 103.891354675017
@@ -3827,7 +5063,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 61,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5083333333333333,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.37738069854249,
       "lng": 103.939541695654
@@ -3864,7 +5112,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 82,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6833333333333333,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.37241870245531,
       "lng": 103.962807212116
@@ -3901,7 +5161,19 @@
       "llpDomain": "Music & Performing Arts/ Visual Arts & Design",
       "llpTitle": "Aesthetics Expressions @ PL"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 210,
+      "applicant": 79,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.3761904761904762,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.34947276268396,
       "lng": 103.884971343143
@@ -3936,7 +5208,19 @@
       "llpDomain": "Community Service & Student Leadership",
       "llpTitle": "Pei Chun Leaders Programme (PCLP)"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 240,
+      "applicant": 134,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5583333333333333,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.33737358725951,
       "lng": 103.855585578061
@@ -3971,7 +5255,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 164,
+      "applicant": 121,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.7378048780487805,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.33805634613048,
       "lng": 103.776106448614
@@ -4008,7 +5304,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 220,
+      "applicant": 64,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.2909090909090909,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.31619786415976,
       "lng": 103.767599818844
@@ -4045,7 +5353,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 130,
+      "applicant": 43,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.33076923076923076,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.41723339695904,
       "lng": 103.830417090698
@@ -4117,7 +5437,19 @@
       "llpDomain": "Music & Performing Arts",
       "llpTitle": "D�ARTS@PCS"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 83,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.46111111111111114,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.35765122315688,
       "lng": 103.935246477199
@@ -4154,7 +5486,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 140,
+      "applicant": 80,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5714285714285714,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.349203512653,
       "lng": 103.74101964471
@@ -4191,7 +5535,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 190,
+      "applicant": 39,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.20526315789473684,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.41159923273069,
       "lng": 103.898803921164
@@ -4228,7 +5584,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 190,
+      "applicant": 122,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6421052631578947,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.40187220643293,
       "lng": 103.898801330302
@@ -4265,7 +5633,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 130,
+      "applicant": 83,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6384615384615384,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.37779451191095,
       "lng": 103.894506933668
@@ -4302,7 +5682,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 190,
+      "applicant": 125,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6578947368421053,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.40514582647962,
       "lng": 103.905156371376
@@ -4339,7 +5731,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 220,
+      "applicant": 75,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.3409090909090909,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.31325113867272,
       "lng": 103.756743261958
@@ -4376,7 +5780,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 58,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.32222222222222224,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.4420359661233,
       "lng": 103.788339756898
@@ -4413,7 +5829,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 75,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.29559365009015,
       "lng": 103.807548617332
@@ -4450,7 +5878,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 140,
+      "applicant": 82,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5857142857142857,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.27495823622634,
       "lng": 103.824188270373
@@ -4487,7 +5927,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 210,
+      "applicant": 89,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4238095238095238,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.3294042600012,
       "lng": 103.806442915912
@@ -4522,7 +5974,19 @@
       "llpDomain": "Community Service & Student Leadership",
       "llpTitle": "Every RSS Student A Leader"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 77,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.42777777777777776,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.33324297847732,
       "lng": 103.934332314404
@@ -4559,7 +6023,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 58,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.38666666666666666,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.2942232846169,
       "lng": 103.835815165829
@@ -4596,7 +6072,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 23,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.15333333333333332,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.44704734253719,
       "lng": 103.801831963297
@@ -4633,7 +6121,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 72,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.48,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.39340997767762,
       "lng": 103.904559511997
@@ -4670,7 +6170,19 @@
       "llpDomain": "Music & Performing Arts",
       "llpTitle": "Programme for Aesthetics Integration@Rosyth (PAIR)"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 210,
+      "applicant": 71,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.3380952380952381,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.37289067499064,
       "lng": 103.875001549174
@@ -4707,7 +6219,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 210,
+      "applicant": 120,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5714285714285714,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.34673868889096,
       "lng": 103.718457955487
@@ -4744,7 +6268,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 140,
+      "applicant": 87,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6214285714285714,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.44504676205659,
       "lng": 103.82102212387
@@ -4781,7 +6317,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 54,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.36,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.38949740422462,
       "lng": 103.899767112047
@@ -4818,7 +6366,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 220,
+      "applicant": 107,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4863636363636364,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.39284606680477,
       "lng": 103.875217666486
@@ -4855,7 +6415,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 140,
+      "applicant": 68,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4857142857142857,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.34765311431632,
       "lng": 103.721523713379
@@ -4892,7 +6464,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 90,
+      "applicant": 44,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4888888888888889,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.43240935732525,
       "lng": 103.786035065192
@@ -4929,7 +6513,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 132,
+      "applicant": 55,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4166666666666667,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.3206340835184,
       "lng": 103.828164966953
@@ -4966,7 +6562,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 210,
+      "applicant": 132,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6285714285714286,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.38166664389749,
       "lng": 103.746275846011
@@ -5003,7 +6611,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 220,
+      "applicant": 55,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.25,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.39467010299293,
       "lng": 103.889926221247
@@ -5077,7 +6697,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 31,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.17222222222222222,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.3347253730189,
       "lng": 103.941234868202
@@ -5114,7 +6746,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 160,
+      "applicant": 84,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.525,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.36411948475833,
       "lng": 103.749251919049
@@ -5151,7 +6795,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 90,
+      "applicant": 28,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.3111111111111111,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.34947192653862,
       "lng": 103.862561037707
@@ -5188,7 +6844,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 210,
+      "applicant": 92,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4380952380952381,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.34938565036336,
       "lng": 103.937007133662
@@ -5225,7 +6893,19 @@
       "llpDomain": "Sports & Outdoor Education",
       "llpTitle": "Sports Experience Reinforcing Values Education (Serve@SJIJ)"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 73,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.40555555555555556,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.31772860986913,
       "lng": 103.845611935235
@@ -5299,7 +6979,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 35,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.19444444444444445,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.31878997295135,
       "lng": 103.917258129598
@@ -5336,7 +7028,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 80,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4444444444444444,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.36047641484682,
       "lng": 103.948725782833
@@ -5373,7 +7077,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 92,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5111111111111111,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.34977870805929,
       "lng": 103.944004684986
@@ -5410,7 +7126,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 140,
+      "applicant": 69,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4928571428571429,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.30525783246242,
       "lng": 103.900162653092
@@ -5445,7 +7173,19 @@
       "llpDomain": "Sports & Outdoor Education",
       "llpTitle": "ENRICH@TNS"
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 300,
+      "applicant": 163,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5433333333333333,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.30528528687321,
       "lng": 103.911553152326
@@ -5482,7 +7222,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 73,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4866666666666667,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.36558782075966,
       "lng": 103.850957126982
@@ -5519,7 +7271,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 58,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.32222222222222224,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.38364996834457,
       "lng": 103.753291857016
@@ -5556,7 +7320,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 130,
+      "applicant": 73,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5615384615384615,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.33104585441349,
       "lng": 103.910934011337
@@ -5593,7 +7369,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 140,
+      "applicant": 89,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6357142857142857,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.31770677551333,
       "lng": 103.945590669163
@@ -5630,7 +7418,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 26,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.21666666666666667,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.36003263746623,
       "lng": 103.853826048327
@@ -5667,7 +7467,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 76,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5066666666666667,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.40285481877246,
       "lng": 103.746822625758
@@ -5704,7 +7516,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 220,
+      "applicant": 104,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4727272727272727,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.40683570215319,
       "lng": 103.899078139493
@@ -5741,7 +7565,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 220,
+      "applicant": 64,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.2909090909090909,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.39882800626578,
       "lng": 103.918621581556
@@ -5778,7 +7614,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 101,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5611111111111111,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.45192019155475,
       "lng": 103.822303719094
@@ -5815,7 +7663,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 70,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.3888888888888889,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.3448790560014,
       "lng": 103.699286360581
@@ -5852,7 +7712,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 118,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6555555555555556,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.38944145898943,
       "lng": 103.766195711835
@@ -5889,7 +7761,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 100,
+      "applicant": 37,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.37,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.3836758200336,
       "lng": 103.760240434318
@@ -5926,7 +7810,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 106,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5888888888888889,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.34718456606375,
       "lng": 103.70053420978
@@ -5963,7 +7859,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 64,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5333333333333333,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.36555714668553,
       "lng": 103.960918869319
@@ -6000,7 +7908,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 72,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.43310340168966,
       "lng": 103.790604437613
@@ -6037,7 +7957,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 91,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6066666666666667,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.43655108594232,
       "lng": 103.791570546509
@@ -6074,7 +8006,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 79,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.4388888888888889,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.43495229315857,
       "lng": 103.797435733144
@@ -6111,7 +8055,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 220,
+      "applicant": 39,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.17727272727272728,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.35790893589535,
       "lng": 103.890472887906
@@ -6148,7 +8104,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 240,
+      "applicant": 82,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.3416666666666667,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.34254744877694,
       "lng": 103.687950252103
@@ -6185,7 +8153,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 79,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5266666666666666,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.37139548941931,
       "lng": 103.883080767491
@@ -6222,7 +8202,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 130,
+      "applicant": 69,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5307692307692308,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.43347186925064,
       "lng": 103.837755319448
@@ -6259,7 +8251,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 100,
+      "applicant": 68,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.68,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.34864575840923,
       "lng": 103.868595527042
@@ -6296,7 +8300,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 67,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.44666666666666666,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.39676600905037,
       "lng": 103.750985967346
@@ -6333,7 +8349,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 140,
+      "applicant": 55,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.39285714285714285,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.37793264345276,
       "lng": 103.885643682171
@@ -6370,7 +8398,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 65,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5416666666666666,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.43338602975674,
       "lng": 103.834087115915
@@ -6407,7 +8447,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 78,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.65,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.33388930344069,
       "lng": 103.932144857355
@@ -6444,7 +8496,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 150,
+      "applicant": 48,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.32,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.34280230475033,
       "lng": 103.741105772644
@@ -6481,7 +8545,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 60,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.5,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.35129177656981,
       "lng": 103.950461927088
@@ -6518,7 +8594,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 120,
+      "applicant": 73,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.6083333333333333,
+      "pressureBand": "steady"
+    },
     "location": {
       "lat": 1.28421153335379,
       "lng": 103.825951875662
@@ -6555,7 +8643,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 180,
+      "applicant": 87,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.48333333333333334,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.37954887512229,
       "lng": 103.769313521752
@@ -6592,7 +8692,19 @@
       "llpDomain": null,
       "llpTitle": null
     },
-    "ballot": null,
+    "ballot": {
+      "sourceType": "archived_official",
+      "sourceLabel": "Official MOE vacancies and balloting API archived by the Wayback Machine",
+      "sourceUrl": "https://web.archive.org/web/20220630151330if_/https://www.moe.gov.sg/api/v1/vacanciesAndBalloting/getAllResult",
+      "snapshotDate": "2022-06-30",
+      "avail": 90,
+      "applicant": 28,
+      "hasBallot": false,
+      "ballot": null,
+      "remark": null,
+      "pressureRatio": 0.3111111111111111,
+      "pressureBand": "low"
+    },
     "location": {
       "lat": 1.36020329705047,
       "lng": 103.869762438084
